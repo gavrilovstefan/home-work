@@ -1,0 +1,43 @@
+/* test */ 
+#top-th{
+    font-size: 25px;
+    color: red;
+    background-color: #ffffaa;
+    border-color: black;
+}
+.color3{
+    background-color: #ccffcc;
+}
+.input-width{
+    width: 100%;
+}
+td{
+    padding-top: 2px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    background-color:#00ccff;
+    border-color: black;
+}
+#file-align{
+    text-align: center;
+}
+#textarea-css{
+    padding: 1px;
+    height: 40px;
+
+}
+button{
+    width: 230px;
+    height: 35px;
+}
+table{
+    padding: 2px;
+    border-top: groove;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: groove;
+}
+body{
+    font-size: 13px;
+}

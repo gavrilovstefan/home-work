@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3.Third-exercise</title>
+
+    <meta charset = "UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        textarea{
+            width: 200px;
+            height: 150px;
+        }
+        input, textarea, option, select{
+            font-size: 10px;
+        }
+        body{
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" name="full-name" placeholder="Write your Full Name" required>
+
+        <input type="email" name="email" placeholder="Write your Email" required>
+        <hr>
+
+        <input type="password" name="password" placeholder="Enter your Password" required>
+
+        <select>
+            <option value="First">First</option>
+            <option value="Second">Second</option>
+            <option value="Third">Third</option>
+        </select>
+        <br>
+        <div>
+            <input type="radio" name="choosing-radio" value="First">First<br>
+            <input type="radio" name="choosing-radio" value="Second">Second<br>
+            <input type="radio" name="choosing-radio" value="Third">Third
+        </div>
+
+        <div>
+            <input type="checkbox" name="First" value="First">First<br>
+            <input type="checkbox" name="Second" value="Second">Second<br>
+            <input type="checkbox" name="Third" value="Third">Third
+        </div>
+        <hr>
+
+        <textarea placeholder="Enter your comment Here"></textarea>
+        <hr>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
