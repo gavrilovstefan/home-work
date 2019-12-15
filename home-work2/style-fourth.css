@@ -1,5 +1,5 @@
 /* test */ 
-#top-th{
+.top-th{
     font-size: 25px;
     color: red;
     background-color: #ffffaa;
@@ -8,7 +8,7 @@
 .color3{
     background-color: #ccffcc;
 }
-.input-width{
+.input-width, select{
     width: 100%;
 }
 td{
@@ -19,7 +19,7 @@ td{
     background-color:#00ccff;
     border-color: black;
 }
-#file-align{
+.file-align{
     text-align: center;
 }
 button{
@@ -35,4 +35,7 @@ table{
 }
 body{
     font-size: 14px;
+}
+.height{
+    height: 52px;
 }
