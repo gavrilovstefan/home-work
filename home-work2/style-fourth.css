@@ -22,22 +22,17 @@ td{
 #file-align{
     text-align: center;
 }
-#textarea-css{
-    padding: 1px;
-    height: 40px;
-
-}
 button{
     width: 230px;
     height: 35px;
 }
 table{
-    padding: 2px;
     border-top: groove;
     border-right: solid;
     border-bottom: solid;
     border-left: groove;
+    border-spacing: 3px;
 }
 body{
-    font-size: 13px;
+    font-size: 14px;
 }
