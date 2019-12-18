@@ -1,0 +1,22 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #5DB2DE;
+}
+li{
+    display:inline-block; /* Makes the list in one line */
+    padding: 10px 15px 10px 15px;
+}
+a{
+    color: #EBF6FB;
+    text-decoration: none;
+}
+li:hover{
+    box-shadow: 0 0 10px 1px orange;
+}
