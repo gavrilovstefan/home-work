@@ -1,0 +1,36 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(wallpaper.jpg);
+}
+.def-div{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.def-div div{
+    width: 750px;
+    margin: 300px auto;
+    text-align: center;
+}
+.def-div h1, .def-div p, .def-div h2{
+    color: blanchedalmond;
+    letter-spacing: 1px;
+}
+.def-div h1{
+    font-size: 50px;
+}
+.def-div a{
+    display: inline-block;
+    background: black;
+    margin: 25px;
+    padding: 10px 30px 10px 30px;
+    text-decoration:none;
+    color: white;
+}
+.def-div a:hover{
+    box-shadow: 0 0 1px 1px black;
+}

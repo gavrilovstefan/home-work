@@ -1,0 +1,32 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.def-ul{
+    list-style-type: none;
+    width: 500px;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    background: #33A6A9 ;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.def-ul li{
+    display:inline-block; /* Makes the list in one line */
+    padding: 8px 15px 8px 15px;
+}
+.def-ul a{
+    color: #EBF6FB;
+    text-decoration: none;
+    
+}
+.def-ul li:hover{
+    transition: 0.25s ease;
+    box-shadow: inset 0px 0px 7px -5px black;
+    border-radius: 5px;
+    background: #1A6062;
+
+
+}
