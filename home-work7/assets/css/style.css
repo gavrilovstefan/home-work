@@ -430,7 +430,7 @@ body{
 
 .below-h1-services{
     display: block;
-    color: #A3E6DB
+    color: #A3E6DB;
 }
 
 .below-h1-services span{
@@ -439,6 +439,17 @@ body{
 }
 
 /*  services-cards */
+@media screen and (min-width:320px){
+    .services-card{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:480px){
+    .services-card{
+        margin-bottom: 0;
+    }
+}
 
 .services-card img{
     height: 100px;
@@ -495,6 +506,10 @@ body{
     .team-card img{
         width: 203px;
     }
+
+    .team-card{
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (min-width:480px){
@@ -506,6 +521,10 @@ body{
 @media screen and (min-width:768px){
     .last-name{
         display: block;
+    }
+
+    .team-card{
+        margin-bottom: 0;
     }
 }
 
@@ -630,6 +649,7 @@ body{
 
 .after-img-portfolio{
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 .portfolio-btn{
@@ -686,8 +706,6 @@ body{
 }
 
 .about-us-card img{
-    width: 20%;
-    height: 20%;
     border-radius: 50%;
     float: left;
 }
@@ -699,6 +717,10 @@ body{
     .about-us-card-context{
         padding-left: 125px;
     }
+    .h3-card-1-about-us, .h3-card-2-about-us, .h3-card-3-about-us, .h3-card-4-about-us{
+       margin-bottom: -80px;
+    }
+    
 }
 
 @media screen and (min-width:480px){
@@ -709,6 +731,7 @@ body{
         padding-left: 175px;
     }
 }
+
 @media screen and (min-width:768px){
     .about-us-card img{
         width: 35%;
@@ -716,6 +739,21 @@ body{
     .about-us-card-context{
         padding-left: 40%;
     }
+    .h3-card-1-about-us, .h3-card-2-about-us, .h3-card-3-about-us, .h3-card-4-about-us{
+        margin-bottom: -50px;
+     }
+}
+
+@media screen and (min-width:992px){
+    .h3-card-1-about-us, .h3-card-2-about-us, .h3-card-3-about-us, .h3-card-4-about-us{
+        margin-bottom: -30px;
+     }
+}
+
+@media screen and (min-width:1200px){
+    .h3-card-1-about-us, .h3-card-2-about-us, .h3-card-3-about-us, .h3-card-4-about-us{
+        margin-bottom: 0px;
+     }
 }
 
 .about-us-card-context{
@@ -728,12 +766,12 @@ body{
     margin: 0;
 }
 
-.card-1-about-us, .card-2-about-us, .card-3-about-us, .card-4-about-us{
+.h3-card-1-about-us, .h3-card-2-about-us, .h3-card-3-about-us, .h3-card-4-about-us{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.card-1-about-us::after{
+.h3-card-1-about-us::after{
     content: 'CEO of Pinterest';
     display: block;
     color: #FEDC99;
@@ -744,7 +782,7 @@ body{
     text-transform: none;
 }
 
-.card-2-about-us::after{
+.h3-card-2-about-us::after{
     content: 'Frounder of Instagram';
     display: block;
     color: #FEDC99;
@@ -755,7 +793,7 @@ body{
     text-transform: none;
 }
 
-.card-3-about-us::after{
+.h3-card-3-about-us::after{
     content: 'Lead Designer at Behance';
     display: block;
     color: #FEDC99;
@@ -766,7 +804,7 @@ body{
     text-transform: none;
 }
 
-.card-4-about-us::after{
+.h3-card-4-about-us::after{
     content: 'Co-Founder of Shazam';
     display: block;
     color: #FEDC99;
@@ -821,6 +859,16 @@ body{
     .your-name, .your-email, .your-message{
         font-size: 14px;
     }
+
+    .empty-space{
+        display: none;
+    }
+}
+
+@media screen and (min-width:480px){
+    .empty-space{
+        display: block;
+    }
 }
 
 @media screen and (min-width:768px){
@@ -863,12 +911,6 @@ color: #F8F4F8;
   
 .your-name::-ms-input-placeholder, .your-email::-ms-input-placeholder, .your-message::-ms-input-placeholder { /* Microsoft Edge */
     color: #F8F4F8;
-}
-/* ------------------------------------------------------------ */
-
-input:-ms-input-placeholder:after {
-    content: "*";
-    color: red;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>foooter<<<<<<<<<<<<<<<<<<<<<< */
@@ -925,4 +967,3 @@ input:-ms-input-placeholder:after {
 .social-sites li a:hover{
     color: #30BEEA;
 }
-
