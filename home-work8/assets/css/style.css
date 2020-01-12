@@ -331,8 +331,6 @@ body{
         padding-right: 15px;
         text-align: center;
     }
-
-
 } 
 /* nav-bar */
 
@@ -366,6 +364,7 @@ body{
 
 .def-header{
     background: #fffaed;
+    padding: 0 0 35px 0;
 }
 
 @media screen and (min-width:320px){
@@ -393,12 +392,30 @@ body{
         font-family: cursive;
     }
 
-    .location, .contact, .tel{
+    .location, .contact, .tel, .follow-me{
         font-weight: 600;
         margin-bottom: -5px;
         color: #3D7B94;
     }
 
+    #facebook{
+        margin-left: 0;
+    }
+
+    .header-info i{
+        border: solid 9px #BDD1DF;
+        border-radius: 50%;
+        background: #BDD1DF;
+        color: white;
+        font-size: 18px;
+        height: 35px;
+        width: 35px;
+        margin: 10px 0 0 5px;
+    }
+    
+    .header-info i:hover{
+        box-shadow: 0 0 2px 1px #929EAC;
+    }
 }
 
 @media screen and (min-width:480px){
@@ -429,9 +446,12 @@ body{
 
     .location, .contact, .tel{
         font-weight: 600;
-        margin-top: 30px;
         margin-bottom: -5px;
         color: #3D7B94;
+    }
+
+    .info-context{
+        margin-top: 4px;
     }
 
 }
@@ -451,7 +471,7 @@ body{
 
     .location, .contact, .tel{
         font-weight: 600;
-        margin-top: 38px;
+        margin-top: -1px;
         margin-bottom: -10px;
         color: #3D7B94;
     }
@@ -460,11 +480,15 @@ body{
         font-weight: 600;
         font-size: 20px;
         margin-bottom: 27px;
+        margin-top: -10px;
         font-family: cursive;
-        margin-top: 20px;
     }
 
+    .info-context{
+        margin-top: 15px;
+    }
 }
+    
 
 .header-info h1{
     color: #3D7B94;
@@ -554,6 +578,18 @@ body{
 }
 
 /* ------------Group Exibitions----------- */
+.img-group-exibitions-1 img{
+    height: 170px;
+    float: right;
+    margin-right: 15px;
+}
+.img-group-exibitions-2{
+    text-align: center;
+}
+.img-group-exibitions-2 img{
+    height: 80px;
+}
+
 @media screen and (max-width:768px){
     .group-exibitions-context h2::after{
         content: "";
@@ -562,6 +598,10 @@ body{
         width: 230px;
         background: #edd28c;
         margin: -10px auto 0 auto;
+    }
+
+    .img-group-exibitions-1 img{
+        display: none;
     }
 }
 
@@ -573,6 +613,20 @@ body{
         width: 230px;
         background: #edd28c;
         margin: -10px auto 0 auto;
+    }
+
+    .img-group-exibitions-1 img{
+        transform: translateY(102%);
+    }
+
+    .img-group-exibitions-2 img{
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px){
+    .img-group-exibitions-1 img{
+        transform: translateY(81%);
     }
 }
 
